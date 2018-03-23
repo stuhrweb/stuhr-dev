@@ -15,10 +15,11 @@
 }
 
 .jumbotron-anion-hero {
-  background: url("../images/anion-hero.jpg") no-repeat;
+  background: url("../images/anion-glucose-hero.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   color: #fff;
+  min-height: 350px;
   text-shadow: 1px 1px 1px #000;
 }
 
@@ -29,10 +30,11 @@
 }
 
 .jumbotron-glucose-hero {
-  background: url("../images/glucose-hero.jpg") no-repeat;
+  background: url("../images/anion-glucose-hero.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   color: #fff;
+  min-height: 350px;
   text-shadow: 1px 1px 1px #000;
 }
 
@@ -47,5 +49,6 @@
   background-size: cover;
   background-position: center;
   color: #fff;
+  min-height: 250px;
   text-shadow: 1px 1px 1px #000;
 }
