@@ -1,0 +1,51 @@
+.jumbotron {
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  overflow: hidden;
+  position: relative;
+}
+
+.jumbotron-home-hero {
+  background: url("../images/home-hero-cows.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.jumbotron-anion-hero {
+  background: url("../images/anion-hero.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.jumbotron-anion-hero img {
+  bottom: 30px;
+  position: absolute;
+  right: 90px;
+}
+
+.jumbotron-glucose-hero {
+  background: url("../images/glucose-hero.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.jumbotron-glucose-hero img {
+  bottom: 30px;
+  position: absolute;
+  right: 90px;
+}
+
+.jumbotron-contact-hero {
+  background: url("../images/contact-hero.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}

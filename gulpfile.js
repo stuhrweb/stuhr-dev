@@ -7,4 +7,19 @@ gulp.task('default', function(){
         page_title: "Stuhr Enterprises"
       }))
       .pipe(gulp.dest('../stuhr-prod'));
+  gulp.src('glucose-booster.html')
+      .pipe(nunjucks.compile({
+        page_title: "Glucose Booster - Stuhr Enterprises"
+      }))
+      .pipe(gulp.dest('../stuhr-prod'));
+  gulp.src('anion-booster.html')
+      .pipe(nunjucks.compile({
+        page_title: "Anion Booster - Stuhr Enterprises"
+      }))
+      .pipe(gulp.dest('../stuhr-prod'));
+  gulp.src('contact-us.html')
+      .pipe(nunjucks.compile({
+        page_title: "Contact Us - Stuhr Enterprises"
+      }))
+      .pipe(gulp.dest('../stuhr-prod'));
 });
