@@ -41,6 +41,12 @@
   box-shadow: none;
 }
 
+.navbar-nav {
+  @include respond-up-to(767px) {
+    margin-top: 75px;
+  }
+}
+
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:link,
 .navbar-default .navbar-nav > li > a:active,

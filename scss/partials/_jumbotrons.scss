@@ -44,6 +44,19 @@
   right: 90px;
 }
 
+.jumbotron-anion-hero img, .jumbotron-glucose-hero img {
+  @include respond-up-to(767px) {
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+.jumbotron-anion-hero h1, .jumbotron-glucose-hero h1 {
+  @include respond-up-to(767px) {
+    padding: 30px 0;
+  }
+}
+
 .jumbotron-contact-hero {
   background: url("../images/contact-hero.jpg") no-repeat;
   background-size: cover;

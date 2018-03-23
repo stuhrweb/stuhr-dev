@@ -1,11 +1,19 @@
 .footer {
   background-color: $mainRed;
+  border-top: 2px solid #f78787;
   bottom: 0;
   color: #fff;
   font-size: 1.3rem;
-  height: 68px;
+  font-weight: 700;
+  height: 105px;
   padding: 1rem .8rem .8rem .8rem;
   position: absolute;
   text-align: center;
   width: 100%;
+  @include respond-at(430px) {
+    height: 90px;
+  }
+  @include respond-at(673px) {
+    height: 70px;
+  }
 }

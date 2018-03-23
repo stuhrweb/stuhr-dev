@@ -7,11 +7,24 @@ body {
   color: #000;
   font-size: 19px;
   font-weight: 300;
-  margin-bottom: 98px;
+  margin-bottom: 135px;
+  @include respond-at(430px) {
+    margin-bottom: 120px;
+  }
+  @include respond-at(673px) {
+    margin-bottom: 100px;
+  }
 }
 
 h1, h2, h3, h4, h5 {
   color: #000;
+}
+
+h1 sup {
+  font-size: 2rem;
+  @include respond-at(768px){
+    font-size: 3.5rem;
+  }
 }
 
 h2 {
@@ -29,4 +42,14 @@ h2 sup {
 a[href^="tel"]{
   color:inherit;
   text-decoration:none;
+}
+
+.standout {
+  background: #efefef;
+  border-bottom: 2px solid #999;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding: 1.2rem;
+  text-align: center;
 }

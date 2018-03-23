@@ -9,8 +9,8 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12">
-          <p class="lead">For more information regarding STUHR Enterprises, LLC. and its industry leading products please contact:</p>
+        <div class="col-sm-6">
+          <p>For more information regarding STUHR Enterprises, LLC. and its industry leading products please contact:</p>
           <address>
             <strong>Roger Stuhr</strong><br>
             Stuhr Enterprises, LLC.<br>
@@ -21,7 +21,68 @@
             mobile: 619.977.4567<br>
             <a href="mailto:dukestu@aol.com">dukestu@aol.com</a>
           </address>
-        </div><!--/.col-xs-12-->
+        </div><!--/.col-sm-6-->
+        <div class="col-sm-6">
+          <p>To request research, please fill out this form:</p>
+          <form class="form-horizontal" method="POST" action="https://formspree.io/dustin.horstmann@gmail.com">
+            <div class="form-group">
+              <div class="col-xs-12">
+                <input class="form-control" type="text" name="name" placeholder="Your name">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <input class="form-control" type="text" name="company" placeholder="Company Name">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <input class="form-control" type="text" name="address" placeholder="Your address">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <input class="form-control" type="text" name="city" placeholder="Your city">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <input class="form-control" type="text" name="country" placeholder="Your country">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-5">
+                <input class="form-control" type="number" name="zip" placeholder="Your zip">
+              </div>
+              <div class="col-xs-5">
+                <input class="form-control" type="tel" name="phone" placeholder="Your phone number">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <input class="form-control" type="email" name="email" placeholder="Your email">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-4">
+                <input class="form-control" type="number" name="cownum" placeholder="Number of milking cows">
+              </div>
+              <div class="col-xs-8">
+                <input class="form-control" type="text" name="consulting" placeholder="Who is your consulting nutritionist?">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <textarea class="form-control" name="message" placeholder="Your message" rows="5"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <button class="btn btn-default" type="submit">Send</button>
+              </div>
+            </div>
+          </form>
+        </div><!--/.col-sm-6-->
       </div><!--/.row-->
     </div><!--/.container-->
   {% endblock %}

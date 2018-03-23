@@ -3,3 +3,9 @@
     @content;
   }
 }
+
+@mixin respond-up-to($media) {
+  @media only screen and (max-width: $media){
+    @content;
+  }
+}
