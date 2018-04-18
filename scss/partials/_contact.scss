@@ -1,0 +1,21 @@
+
+.nav-tabs a, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  color: black;
+}
+
+.tab-content {
+  min-height: 165px;
+}
+
+.tab-pane address {
+  padding: 2rem;
+}
+
+.form-control {
+  color: black;
+}
+
+.form-control::placeholder{
+  color: #333;
+  opacity: 1;
+}
