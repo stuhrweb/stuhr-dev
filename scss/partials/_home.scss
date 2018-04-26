@@ -26,3 +26,9 @@
 .title-standout sup {
   top: -0.6em;
 }
+
+.products {
+  @include respond-at(768px){
+    padding: 0 4rem;
+  }
+}
