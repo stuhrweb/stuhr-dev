@@ -4,7 +4,7 @@
 }
 
 .tab-content {
-  min-height: 165px;
+  min-height: 340px;
 }
 
 .tab-pane address {
@@ -18,4 +18,8 @@
 .form-control::placeholder{
   color: #333;
   opacity: 1;
+}
+
+address{
+  margin-bottom: 0;
 }

@@ -17,6 +17,11 @@ gulp.task('default', function(){
         page_title: "Anion Booster - Stuhr Enterprises"
       }))
       .pipe(gulp.dest('../stuhr-prod'));
+  gulp.src('about.html')
+      .pipe(nunjucks.compile({
+        page_title: "About - Stuhr Enterprises"
+      }))
+      .pipe(gulp.dest('../stuhr-prod'));
   gulp.src('contact-us.html')
       .pipe(nunjucks.compile({
         page_title: "Contact Us - Stuhr Enterprises"
