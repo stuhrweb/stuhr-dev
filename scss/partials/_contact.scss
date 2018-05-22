@@ -11,7 +11,10 @@
 }
 
 .tab-content {
-  min-height: 340px;
+  min-height: 240px;
+  @include respond-at(768px){
+    min-height: 340px;
+  }
 }
 
 .tab-pane address {

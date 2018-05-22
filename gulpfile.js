@@ -15,7 +15,7 @@ gulp.task('default', function(){
       .pipe(nunjucks.compile({
         page_title: "Glucose Booster - Stuhr Enterprises",
         meta: {
-          description: "A solution to help controll Hypocalcemia (Milk Fever) by utilizing anions derived from natural sources that are palatable which helps increase DMI during this critical time of Transition. It also regulates the metabolic pH of the cow's blood and urine to increase the absorption of calcium.",
+          description: "A unique blend of glucose precursors that help the Transition cow produce enough glucose to help prevent subclinical and clinical ketosis and the resulting health problems.",
           image: "https://www.stuhrenterprises.com/images/anion-glucose-hero.jpg"
         }
       }))
@@ -24,7 +24,7 @@ gulp.task('default', function(){
       .pipe(nunjucks.compile({
         page_title: "Anion Booster - Stuhr Enterprises",
         meta: {
-          description: "A unique blend of glucose precursors that help the Transition cow produce enough glucose to help prevent subclinical and clinical ketosis and the resulting health problems.",
+          description: "A solution to help controll Hypocalcemia (Milk Fever) by utilizing anions derived from natural sources that are palatable which helps increase DMI during this critical time of Transition. It also regulates the metabolic pH of the cow's blood and urine to increase the absorption of calcium.",
           image: "https://www.stuhrenterprises.com/images/anion-glucose-hero.jpg"
         }
       }))
