@@ -47,4 +47,13 @@ gulp.task('default', function(){
         }
       }))
       .pipe(gulp.dest('../stuhr-prod'));
+  gulp.src('privacy-policy.html')
+      .pipe(nunjucks.compile({
+        page_title: "Privacy Policy - Stuhr Enterprises",
+        meta: {
+          description: "Learn the privacy policy of Stuhr Enterprises, LLC.",
+          image: ""
+        }
+      }))
+      .pipe(gulp.dest('../stuhr-prod'));
 });
