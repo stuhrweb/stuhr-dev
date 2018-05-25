@@ -5,15 +5,29 @@
   color: #fff;
   font-size: 1.3rem;
   font-weight: 700;
-  height: 105px;
+  height: 115px;
   padding: 1rem .8rem .8rem .8rem;
   position: absolute;
   text-align: center;
   width: 100%;
-  @include respond-at(430px) {
+  @include respond-at(416px) {
     height: 90px;
   }
   @include respond-at(673px) {
     height: 70px;
+  }
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+  a:link {
+    color: white;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: black;
+  }
+  a:focus {
+    color: black;
   }
 }

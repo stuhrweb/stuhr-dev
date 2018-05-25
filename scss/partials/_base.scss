@@ -7,8 +7,8 @@ body {
   color: #000;
   font-size: 19px;
   font-weight: 300;
-  margin-bottom: 135px;
-  @include respond-at(430px) {
+  margin-bottom: 145px;
+  @include respond-at(416px) {
     margin-bottom: 120px;
   }
   @include respond-at(673px) {
