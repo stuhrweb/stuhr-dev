@@ -56,4 +56,13 @@ gulp.task('default', function(){
         }
       }))
       .pipe(gulp.dest('../stuhr-prod'));
+  gulp.src('sitemap.html')
+      .pipe(nunjucks.compile({
+        page_title: "Sitemap - Stuhr Enterprises",
+        meta: {
+          description: "Sitemap of Stuhr Enterprises, LLC.",
+          image: ""
+        }
+      }))
+      .pipe(gulp.dest('../stuhr-prod'));
 });

@@ -14,6 +14,9 @@
     height: 90px;
   }
   @include respond-at(673px) {
+    height: 87px;
+  }
+  @include respond-at(992px) {
     height: 70px;
   }
   a {

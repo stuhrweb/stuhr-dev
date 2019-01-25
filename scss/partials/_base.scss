@@ -12,6 +12,9 @@ body {
     margin-bottom: 120px;
   }
   @include respond-at(673px) {
+    margin-bottom: 117px;
+  }
+  @include respond-at(992px) {
     margin-bottom: 100px;
   }
 }
