@@ -9,7 +9,7 @@
   "author": "Dustin H",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-nunjucks": "^3.0.0",
     "nunjucks": "^3.0.1"
   }
